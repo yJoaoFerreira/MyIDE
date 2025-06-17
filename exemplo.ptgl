@@ -1,24 +1,17 @@
-texto: nome_usuario
-real: nota1, nota2, media
+// Run: node index.js
 
-escreva("Bem-vindo ao calculador de média!\n")
-escreva("Digite o seu nome: ")
-leia(nome_usuario)
+texto: nome
+inteiro: idade
 
-escreva("Digite a primeira nota: ")
-leia(nota1)
+escreva("Digite seu nome: ")
+leia(nome)
 
-escreva("Digite a segunda nota: ")
-leia(nota2)
-media: 9.5
+escreva("Digite sua idade: ")
+leia(idade)
 
-escreva("\n--- Resumo ---\n")
-escreva("Aluno: ")
-escreva(nome_usuario)
-escreva("\nNota 1: ")
-escreva(nota1)
-escreva("\nNota 2: ")
-escreva(nota2)
-escreva("\nMédia Fictícia: ")
-escreva(media)
-escreva("\n")
+escreva("----------")
+escreva("Nome: ")
+escreva(nome)
+escreva("Idade: ")
+escreva(idade)
+escreva("----------")
