@@ -1,2 +1,24 @@
-escreva("Hello World!")
-escreva("Olá, Mundo!")
+texto: nome_usuario
+real: nota1, nota2, media
+
+escreva("Bem-vindo ao calculador de média!\n")
+escreva("Digite o seu nome: ")
+leia(nome_usuario)
+
+escreva("Digite a primeira nota: ")
+leia(nota1)
+
+escreva("Digite a segunda nota: ")
+leia(nota2)
+media: 9.5
+
+escreva("\n--- Resumo ---\n")
+escreva("Aluno: ")
+escreva(nome_usuario)
+escreva("\nNota 1: ")
+escreva(nota1)
+escreva("\nNota 2: ")
+escreva(nota2)
+escreva("\nMédia Fictícia: ")
+escreva(media)
+escreva("\n")
