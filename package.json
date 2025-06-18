@@ -4,7 +4,8 @@
   "description": "Essa é a minha IDE, e é apenas isso por enquanto :p",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parser": "peggy -o lib/parser.js --format es src/parser.peggy"
   },
   "keywords": [],
   "author": "",
