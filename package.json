@@ -1,0 +1,12 @@
+{
+  "name": "myide",
+  "version": "1.0.0",
+  "description": "Essa é a minha IDE, e é apenas isso por enquanto :p",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
